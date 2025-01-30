@@ -43,7 +43,7 @@ Before setting up the project, ensure that you have the following installed:
 3. **Create a `.env` file** in the root directory with the following environment variables:
 
     ```bash
-    PORT=5000
+    PORT=8080
     MONGO_URI=mongodb+srv://<your-mongodb-url>
     JWT_SECRET=mysecretkey
     ```
@@ -71,8 +71,7 @@ The `.env` file contains important environment variables that you must configure
 ## Folder Structure
 
 ```plaintext
-├── config
-│   └── db.js            # MongoDB connection logic
+
 ├── controllers
 │   ├── taskController.js # Task CRUD operations
 │   └── userController.js # User registration and login logic
